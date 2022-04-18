@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+
+    <div class="calculator-container">
+		<h1>Kalkulator tętna maksymalnego</h1>
+		<p><label>Płeć:</label></p>
+		<select id="plec">
+		<option value="1" selected>Mężczyzna</option>
+		<option value="2">Kobieta</option>
+		</select>
+        <p>Wiek:</p>
+        <input class="wiek-input" type="text">
+        <p>Waga:</p>
+        <input class="waga-input" type="text"><br>
+        <button class="calculate"> Oblicz</button>
+		<p>Wynik</p>
+		<p class="result"></p>
+		<br>
+	</div>
+		<table class="tabela" border:"1">
+			<tr><td id="a"></td><td id="b"></td><td id="c"></td></tr>
+			<tr><td id="a1"></td><td id="b1"></td><td id="c1"></td></tr>
+			<tr><td id="a2"></td><td id="b2"></td><td id="c2"></td></tr>
+			<tr><td id="a3"></td><td id="b3"></td><td id="c3"></td></tr>
+			<tr><td id="a4"></td><td id="b4"></td><td id="c4"></td></tr>
+			<tr><td id="a5"></td><td id="b5"></td><td id="c5"></td></tr>
+		</table>
+
+    <script src="script.js"></script>
+</body>
+</html>
